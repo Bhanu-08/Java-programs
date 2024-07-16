@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        @media screen and (min-width:480px) {
+            *{
+    margin: 0px;
+}
+.img
+{
+    width: 95%;
+    border: 5px solid white;
+    outline-style: solid;
+    outline-color: aquamarine;
+    outline-width: 5px;
+}
+.row .col1,.row .col2
+{
+    float: left;
+    width: 50%;   
+}
+.row
+{
+    margin: 10px;
+}
+.mb3{
+    margin-bottom: 10px;
+}
+.form-text{
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.alert{
+    padding: 10px;
+    background-color: #6bb9bffc;
+    margin: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    text-align: center;
+}
+.btn{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+}
+button:hover{
+    background-color: gray;
+}
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col1">
+            <img class="img" src="images/gec.png">
+        </div>
+        <div class="col2">
+            <form class="alert">
+                <h1>Registration page</h1>
+                <div class="mb3"><input placeholder="Enter Email-Id" class="form-text" type="email" name="email" id="emailid"></div>
+                <div class="mb3"><input placeholder="Enter Password" class="form-text" type="password" name="password" id="password"></div>
+                <div class="mb3"><input placeholder="Enter Full Name" class="form-text" type="text" name="fullname" id="fullname"></div>
+                <div class="mb3"><input placeholder="Enter Mobile No"class="form-text" type="tel" name="phone" id="phone"></div>
+                <div class="mb3">
+                    <button class="btn">Register</button>
+                    <button class="btn">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

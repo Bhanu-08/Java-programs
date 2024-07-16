@@ -1,0 +1,12 @@
+body{
+    background-image:('portfolio-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    background-color:rgb(red, green, blue);
+    color: white;
+    text-align: center;
+    padding:50px;
+    margin: 100px;
+}

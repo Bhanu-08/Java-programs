@@ -1,0 +1,11 @@
+body{
+    background-image:url("../images/gec.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p1{
+    background-color: rgba(red, rgb(17, 223, 17), hwb(231 0% 0%), alpha);
+    padding:15px;
+    font-size: 20px;
+    text-indent: 100px;
+}

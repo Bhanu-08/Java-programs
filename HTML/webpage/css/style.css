@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+}
+.main{
+    height: 100vh;
+    background-color: rgb(159, 212, 159);
+}
+.head{
+    background-color: black;
+    height: 10vh;
+    padding-top: 5vh;
+}
+.navbar-nav{
+    color: white;
+    list-style: none;
+}
+.navbar-nav li{
+    display: inline;
+    /*background-color: pink;*/
+    margin-right: 5px;
+    font-size: 20px;
+}
+.content{
+    height: 70vh;
+    background-color: lightpink;
+}
+.head ul a{
+    color:white;
+    text-decoration: none;
+
+}
+.content iframe{
+
+    height: 100%;
+    width: 100%;
+}
+.footer{
+    height: 15vh;
+}
